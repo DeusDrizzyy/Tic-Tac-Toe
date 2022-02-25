@@ -1,0 +1,39 @@
+#container {
+    width: 28rem;
+    height: 28rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+}
+
+#tabela {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    width: 28rem;
+    height: 28rem;
+    background: cyan;
+    justify-content: center;
+    align-items: center;
+}
+
+#tabela>div {
+    background-color: #8ca0ff;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #0e32e7;
+}
+
+.X {
+    background-image: url("/img/kisspng-x-mark-computer-icons-check-mark-clip-art-x-mark-5b10582f130130.4102316015277978070779\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.O {
+    background-image: url("img/—Pngtree—black\ ring_5487778\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
